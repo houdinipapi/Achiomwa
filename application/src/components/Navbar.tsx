@@ -15,7 +15,7 @@ const Navbar = () => {
               height={40}
             /> */}
             <span className="text-white text-xl font-bold">
-              <a href="#">Logo</a>
+              <a href="#">ACHIOMWA</a>
             </span>
           </div>
           <ul className="flex space-x-4">
