@@ -4,14 +4,18 @@ const HomePage = () => {
   return (
     <div>
     
-        <div className="container mx-auto p-4">
+        
+        <div className="container mx-auto p-4 bg-gray-100">
+
+            {/* Welcome */}
             <div className="text-center my-8">
                 <h1 className="text-4xl font-bold my-8">Welcome to Our World</h1>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 text-left">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem unde, recusandae tempora incidunt officiis fugiat magni veniam commodi blanditiis minus nulla itaque! Perspiciatis.
                 </p>
             </div>
 
+            {/* Projects */}
             <div className="my-8">
                 <h1 className="text-3xl font-bold text-center mb-6">Our Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -33,6 +37,21 @@ const HomePage = () => {
                     
                 </div>
             </div>
+
+            {/* How it works */}
+            <div className="text-center my-8">
+                <h1 className="text-3xl font-bold text-center my-5">How It Works</h1>
+                <p className="text-lg text-gray-700 text-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quis ipsam sit iure maxime accusantium, veritatis laboriosam dolorum culpa consectetur ullam nam libero. Adipisci itaque vero numquam tempora! Sed, numquam.
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quis ipsam sit iure maxime accusantium, veritatis laboriosam dolorum culpa consectetur ullam nam libero. Adipisci itaque vero numquam tempora! Sed, numquam.
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quis ipsam sit iure maxime accusantium, veritatis laboriosam dolorum culpa consectetur ullam nam libero. Adipisci itaque vero numquam tempora! Sed, numquam.
+                </p>
+            </div>
+
         </div>
     </div>
   )
