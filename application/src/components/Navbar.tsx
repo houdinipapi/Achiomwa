@@ -31,6 +31,9 @@ const Navbar = () => {
             <li>
               <a href="/contact" className="text-white hover:bg-gray-700 p-2 rounded-lg">Contact</a>
             </li>
+            <li>
+              <a href="#" className="text-white hover:text-red-500 hover:bg-gray-700 p-2 rounded-lg">Login</a>
+            </li>
           </ul>
         </nav>
       </header>
